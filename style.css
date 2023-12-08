@@ -11,3 +11,97 @@
   body  {
     font-family: 'Roboto', sans-serif;
   }
+
+.main-nav {
+  background-color: #1f2937;
+  color: #F9FAF8;
+  min-height: 80px;
+  padding: 0 11rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main-nav-links {
+  list-style: none;
+
+  display: flex;
+  gap: 1.5rem;
+}
+
+.main-nav-links a {
+  color: #E5E7EB;
+  text-decoration: none;
+
+  font-size: 0.88rem;
+}
+
+.logo-text  {
+  min-width: max-content;
+  font-size: 1.5rem;
+}
+
+/* Hero-section */
+
+.hero-section {
+  background-color: #1f2937;
+  padding: 3rem 11rem;
+
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row wrap;
+  flex: 1;
+}
+
+.hero-container-2 {
+  width: 540px; 
+  color: #F9FAF8;
+}
+
+.hero-container h1  {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.hero-container p {
+  margin: 10px 0 10px 0;
+  color: #E5E7EB;
+
+  font-size: 1.12rem;
+  font-weight: 300;
+  line-height: 1.2em;
+}
+
+.hero-button  {
+  padding: 0.8em;
+  width: 120px;
+  margin-top: 11px;
+  background-color: rgb(56, 128, 245);
+  border: none;
+  border-radius: 14px;
+
+  color: #F9FAF8;
+  font-weight: 400;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.139);
+}
+
+
+.hero-button:hover {
+  cursor: pointer;
+  background-color: #3881f6d4;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.047);
+}
+
+.hero-image-container {
+}
+
+.hero-image {
+  width: 425px;
+  height: 255px;
+
+  margin-top: 20px;
+}
