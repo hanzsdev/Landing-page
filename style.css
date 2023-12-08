@@ -52,6 +52,7 @@
   background-color: #1f2937;
   padding: 3rem 11rem;
 
+
 }
 
 .hero-container {
@@ -62,7 +63,7 @@
 }
 
 .hero-container-2 {
-  width: 540px; 
+  max-width: 540px; 
   color: #F9FAF8;
 }
 
@@ -172,6 +173,7 @@
   flex-direction: column;
   
   padding: 0 10.5rem;
+  max-width: 80rem;
 }
 
 .quote-container p {
