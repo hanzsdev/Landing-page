@@ -105,3 +105,46 @@
 
   margin-top: 20px;
 }
+
+/* Info-section */
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 0 11rem;
+  margin-top: 3rem;
+  gap: 2rem;
+}
+
+.info-header  {
+  font-size: 2.25rem;
+  color: #1f2937;
+}
+
+.info-container {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+
+
+}
+
+.image {
+  height: 260px;
+  width: 220px;
+
+  border: 5px solid rgb(56, 128, 245);
+  border-radius: 12px;
+}
+
+.item p {
+  color: #1f2937bc;
+
+  max-width: 220px;
+  margin-top: 10px;
+  text-align: center;
+
+}
